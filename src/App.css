@@ -1,0 +1,9 @@
+.PageWrapper {
+    margin: 0 auto;
+    max-width: 1040px;
+    padding: 0 25px;
+}
+.HeaderOneStyle{
+    font-weight: 80px;
+    font-weight: normal;
+}

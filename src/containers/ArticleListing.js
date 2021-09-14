@@ -1,12 +1,12 @@
 import React from 'react';
 
 function ArticleListing() {
-    const articleTitle ='Single Article';
+    const articleTitle = 'Articles';
     return (
-        <div>
-            <h1>{articleTitle}</h1>
+        <div classname='PageWrapper'>
+            <h1 classname = 'HeaderOneStyle'>{articleTitle}</h1>
         </div>
     );
 }
 
-export default Article;
+export default ArticleListing;

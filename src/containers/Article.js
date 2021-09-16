@@ -1,12 +1,12 @@
 import React from 'react';
 
 function Article() {
-    const articleTitle = 'Articles';
-    return (
-        <div>
-            <h1>{articleTitle}</h1>
-        </div>
-    );
+	const articleTitle = 'Single Articles';
+	return (
+		<div>
+			<h1>{articleTitle}</h1>
+		</div>
+	);
 }
 
 export default Article;

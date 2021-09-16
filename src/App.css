@@ -1,9 +1,54 @@
 .PageWrapper {
-    margin: 0 auto;
-    max-width: 1040px;
-    padding: 0 25px;
+	margin: 0 auto;
+	max-width: 1040px;
+	padding: 0 25px;
 }
-.HeaderOneStyle{
-    font-weight: 80px;
-    font-weight: normal;
+.HeaderOneStyle {
+	font-size: 70px;
+	font-weight: normal;
+}
+
+.ArticleCardWrapper{
+	align-items: flex-start;
+	border: 1px solid black;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	margin-bottom: 40px;
+	padding: 20px;
+}
+
+.AricleCardImage{
+	flex-basis: 30%;
+}
+
+.AricleCardImage img{
+	height: auto;
+	width: 100%;
+}
+
+.ArcileCardText{
+	flex-basis: 70%;
+	padding-left: 28px;
+}
+
+.ArcileCardTitle{
+	font-size: 36px;
+	font-weight: bold;
+	margin: 0;
+}
+
+.ArcileCardDate{
+	margin-left: 8px;
+	margin-bottom: 10px;
+	font-size: 14px;
+}
+
+.ArcileCardBlub{
+
+}
+
+.ArcileCardLink{
+	font-size: 16px;
+	font-weight: bold;
 }

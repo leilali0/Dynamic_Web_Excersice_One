@@ -46,11 +46,58 @@
 	margin-bottom: 10px;
 }
 
-.ArcileCardBlub{
+.ArticleHeader {
+	background-color: #e5e5e5;
+	padding:20px 0;
+}
 
+.ArticleHeaderText {
+	margin: 0 auto;
+	max-width: 640px;
+	padding: 30px 0 0;
+}
+
+.HeaderOneStyle {
+	font-size: 64px;
+	margin: 10px 0;
+}
+
+.ArticleHeaderDate {
+	margin-top: 0;
 }
 
 .ArcileCardLink{
 	font-size: 16px;
 	font-weight: bold;
+	margin-top: 20px;
+}
+
+.ArticleHeaderBlurb {
+	font-size: 22px;
+	line-height: 1.5;
+}
+
+.ArticleText {
+	margin: 0 auto;
+	max-width: 640px;
+	padding-top: 30px;
+}
+
+.ArticleText p{
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+.ArticleText h2{
+	font-size: 36px;
+	font-weight: bold;
+	margin: 0;
+	margin-bottom: 20px;
+}
+
+.ArticleText h3{
+	font-size: 24px;
+	font-weight: bold;
+	margin: 0;
+	margin-bottom: 20px;
 }

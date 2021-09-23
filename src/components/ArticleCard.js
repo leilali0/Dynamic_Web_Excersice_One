@@ -1,7 +1,8 @@
 import React from 'react';
 
 function ArticleCard({article}){
-  console.log(article);
+  const newDate = new Date(article.publishedDate);
+  const dateString = newDate.toDateString();
 
   return (
     <div className="ArticleCardWrapper">
@@ -10,10 +11,10 @@ function ArticleCard({article}){
       </div>
       <div className="ArcileCardText">
         <h2 className="ArcileCardTitle">{article.title}</h2>
-          <p className="ArcileCardDate">{article.publishedDate}</p>
+          <p className="ArcileCardDate">{dateString}</p>
           <p className="ArcileCardBlub">{article.blurb}</p>
           <p className="ArcileCardLink">
-            <a href="#">Read More</a>
+            <a href={`/article/${article.id}`}>Read More</a>
           </p>
       </div>
     </div>
